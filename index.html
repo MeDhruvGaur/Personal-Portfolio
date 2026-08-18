@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhruv Kumar — Software Developer & B.Tech CSE Student</title>
+  <meta name="description"
+    content="Portfolio of Dhruv Kumar, a Software Developer and B.Tech CSE Student graduating in 2026, building responsive web solutions and solving complex algorithmic challenges." />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="#home" class="logo" aria-label="Dhruv Kumar Home">
+        <span class="code-tag">&lt;</span>Dhruv<span class="code-tag"> /&gt;</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="burger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- ============== HERO SECTION ============== -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-content reveal">
+          <span class="hero-eyebrow">Graduating Class of 2026</span>
+          <h1 class="hero-title">Hi, I'm <span class="gradient-text">Dhruv Kumar</span></h1>
+          <div class="hero-typewriter-container">
+            <h2 class="hero-role" id="typewriter-text"></h2><span class="typewriter-cursor"></span>
+          </div>
+          <p class="hero-role" style="font-size: var(--fs-md); margin-top: var(--space-2); max-width: 50ch;">
+            Pursuing my B.Tech in Computer Science & Engineering. Passionate about architecting scalable systems,
+            writing clean code, and solving real-world engineering problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+        </div>
+
+        <div class="avatar-container reveal">
+          <div class="avatar-ambient-glow"></div>
+          <div class="avatar-frame">
+            <img src="images/dhruv_profile.png" alt="Dhruv Kumar Abstract Profile" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== ABOUT SECTION ============== -->
+    <section id="about" class="sheet">
+      <div class="wrap">
+        <span class="sheet-tag">Brief Profile</span>
+        <h2 class="sheet-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I am a dedicated <strong>Computer Science & Engineering</strong> B.Tech student, aiming to graduate in
+              <strong>2026</strong>. Over the course of my academic journey, I have developed a strong foundation in
+              software engineering principles, algorithm design, and modern system architectures.
+            </p>
+            <p>
+              My focus is on developing robust full-stack applications and optimization. I love bridging the gap between
+              elegant front-end designs and efficient, scalable back-end structures. I'm constantly learning new
+              paradigms, keeping pace with tech trends, and translating problem specifications into clean,
+              production-ready code.
+            </p>
+            <p>
+              When I'm not writing code, I participate in competitive programming challenges, contribute to open-source
+              developer toolkits, or read technical blogs about system architecture.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-box glass-card">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">DSA Questions Solved</span>
+              </div>
+              <div class="stat-box glass-card">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <dl class="spec-list glass-card">
+              <div class="spec-row">
+                <dt>Discipline</dt>
+                <dd>B.Tech Computer Science &amp; Engineering</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Graduation Year</dt>
+                <dd>2026 Passout</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Focus Areas</dt>
+                <dd>Full Stack Web Dev, Systems, Algorithms</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Key Stack</dt>
+                <dd>React, Node.js, TypeScript, Python, SQL</dd>
+              </div>
+              <div class="spec-row">
+                <dt>Core Strengths</dt>
+                <dd>Problem Solving, System Design, Team Work</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SKILLS SECTION ============== -->
+    <section id="skills" class="sheet">
+      <div class="wrap">
+        <span class="sheet-tag">Technical Competence</span>
+        <h2 class="sheet-title">My Skillset</h2>
+
+        <div class="skills-container reveal">
+          <!-- Category 1: Languages & Core -->
+          <div class="skills-category glass-card">
+            <h3 class="skills-category-title">Languages &amp; Core</h3>
+            <div class="gauge-grid">
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Java / C++</span>
+                  <span class="gauge-value">92%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.92;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">JavaScript / TypeScript</span>
+                  <span class="gauge-value">88%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.88;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Python</span>
+                  <span class="gauge-value">80%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.8;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Data Structures &amp; DSA</span>
+                  <span class="gauge-value">95%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.95;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Frameworks -->
+          <div class="skills-category glass-card">
+            <h3 class="skills-category-title">Web Stack</h3>
+            <div class="gauge-grid">
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">React / Next.js</span>
+                  <span class="gauge-value">90%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.9;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Node.js / Express</span>
+                  <span class="gauge-value">85%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.85;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">HTML5 / CSS3 / Tailwind</span>
+                  <span class="gauge-value">92%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.92;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">RESTful APIs</span>
+                  <span class="gauge-value">87%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.87;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Databases & Tools -->
+          <div class="skills-category glass-card">
+            <h3 class="skills-category-title">Databases &amp; Tools</h3>
+            <div class="gauge-grid">
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">SQL / PostgreSQL / MongoDB</span>
+                  <span class="gauge-value">83%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.83;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Git / GitHub Actions</span>
+                  <span class="gauge-value">90%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.9;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Docker / Kubernetes</span>
+                  <span class="gauge-value">75%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.75;"></span>
+                </div>
+              </div>
+              <div class="gauge">
+                <div class="gauge-info">
+                  <span class="gauge-label">Linux / Shell Scripting</span>
+                  <span class="gauge-value">80%</span>
+                </div>
+                <div class="gauge-track">
+                  <span class="gauge-fill" style="--pct: 0.8;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== PROJECTS SECTION ============== -->
+    <section id="projects" class="sheet">
+      <div class="wrap">
+        <span class="sheet-tag">Recent Work</span>
+        <h2 class="sheet-title">My Projects</h2>
+
+        <div class="project-grid">
+
+          <!-- Project 1: AlgoVisualizer -->
+          <article class="project-card glass-card reveal">
+            <div class="project-image-wrapper">
+              <div class="project-overlay"></div>
+              <img src="images/project_algo_visualizer.png" alt="Algorithm Visualizer Mockup" />
+            </div>
+            <p class="project-index">Project 01</p>
+            <h3 class="project-name">AlgoVisualizer</h3>
+            <p class="project-desc">
+              An interactive algorithm visualization platform built to help students study sorting, pathfinding, and
+              tree traversal algorithms with step-by-step state animations.
+            </p>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">D3.js</span>
+              <span class="tag">TypeScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="View AlgoVisualizer Code on GitHub">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+                Code
+              </a>
+              <a href="#" aria-label="View AlgoVisualizer Live Demo">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: DevConnect -->
+          <article class="project-card glass-card reveal">
+            <div class="project-image-wrapper">
+              <div class="project-overlay"></div>
+              <img src="images/project_devconnect.png" alt="DevConnect Platform Mockup" />
+            </div>
+            <p class="project-index">Project 02</p>
+            <h3 class="project-name">DevConnect</h3>
+            <p class="project-desc">
+              A collaborative developer matchmaking and networking application. Features real-time chat, collaborative
+              file editing rooms, and profile recommendations by skillset.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Node.js</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">React</span>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="View DevConnect Code on GitHub">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+                Code
+              </a>
+              <a href="#" aria-label="View DevConnect Live Demo">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: CloudScale -->
+          <article class="project-card glass-card reveal">
+            <div class="project-image-wrapper">
+              <div class="project-overlay"></div>
+              <img src="images/project_cloudscale.png" alt="CloudScale System Dashboard Mockup" />
+            </div>
+            <p class="project-index">Project 03</p>
+            <h3 class="project-name">CloudScale</h3>
+            <p class="project-desc">
+              An automation monitoring dashboard showing real-time resource utilization of microservices. Features alert
+              notifications, docker status indicators, and custom telemetry metrics.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Go</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Grafana</span>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="View CloudScale Code on GitHub">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+                Code
+              </a>
+              <a href="#" aria-label="View CloudScale Live Demo">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CONTACT SECTION ============== -->
+    <section id="contact" class="sheet" style="border-bottom: none;">
+      <div class="wrap">
+        <span class="sheet-tag">Get in Touch</span>
+        <h2 class="sheet-title">Connect with Me</h2>
+
+        <div class="contact-grid">
+          <div class="contact-intro reveal">
+            <p>
+              I am currently seeking software engineering internship or full-time opportunities. If you have an exciting
+              project in mind, want to discuss algorithms, or just want to connect, feel free to reach out. I will get
+              back to you as soon as possible!
+            </p>
+
+            <div class="contact-channels">
+              <a href="mailto:medhruvgaur23@gmail.com" class="contact-channel-item"
+                aria-label="Send Email to Dhruv Kumar">
+                <div class="contact-channel-icon">
+                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20" height="20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-channel-details">
+                  <span class="contact-channel-title">Email</span>
+                  <span class="contact-channel-value">medhruvgaur23@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+918172961542" class="contact-channel-item" aria-label="Call Dhruv Kumar">
+                <div class="contact-channel-icon">
+                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20" height="20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-channel-details">
+                  <span class="contact-channel-title">Phone</span>
+                  <span class="contact-channel-value">+91 8172961542</span>
+                </div>
+              </a>
+
+              <div class="contact-channel-item">
+                <div class="contact-channel-icon">
+                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20" height="20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                </div>
+                <div class="contact-channel-details">
+                  <span class="contact-channel-title">Based In</span>
+                  <span class="contact-channel-value">New Delhi, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper glass-card reveal">
+            <form id="contact-form" novalidate>
+              <div class="form-field">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error"
+                  placeholder="Enter your full name" />
+                <p class="field-error" id="name-error">Name is required.</p>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error"
+                  placeholder="Enter your email address" />
+                <p class="field-error" id="email-error">Please enter a valid email address.</p>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required aria-describedby="message-error"
+                  placeholder="Write your message here..."></textarea>
+                <p class="field-error" id="message-error">Message must be at least 10 characters.</p>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">Send Message</button>
+
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-logo">
+        <span>&copy; 2026 Dhruv Kumar.</span>
+      </div>
+      <p>B.Tech CSE Student &bull; Software Developer Portfolio</p>
+      <ul class="social-links">
+        <li><a href="#" aria-label="Dhruv Kumar on GitHub">GitHub</a></li>
+        <li><a href="#" aria-label="Dhruv Kumar on LinkedIn">LinkedIn</a></li>
+        <li><a href="#" aria-label="Dhruv Kumar on Twitter">X</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Script for interactivity and animations -->
+  <script src="js/navigation.js"></script>
+</body>
+
+</html>

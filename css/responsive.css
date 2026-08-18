@@ -1,0 +1,23 @@
+/* ==========================================================================
+   responsive.css
+   - Legacy override prevention. 
+   - All layout and responsive code is centralized in style.css.
+   - Print stylesheet is maintained here.
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .site-header,
+  .btn,
+  .form-status,
+  .burger {
+    display: none !important;
+  }
+  .sheet {
+    padding-block: var(--space-4) !important;
+    page-break-inside: avoid;
+  }
+}
